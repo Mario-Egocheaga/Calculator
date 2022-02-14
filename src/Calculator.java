@@ -9,7 +9,19 @@ public class Calculator {
 		int operand1 = sc.nextInt();
 		System.out.println("Enter a Value");
 		int operand2 = sc.nextInt();
-		System.out.println(operand1 + operand2);
+		
+		System.out.println("Would you like to add or subtract?");
+		String option = sc.next().toLowerCase();
+		
+		if(option.equals("add"))
+		{
+			System.out.println(operand1 + operand2);
+		}
+		else if (option.equals("subtract"))
+		{
+			System.out.println(operand1 - operand2);
+			
+		}
 		
 
 	}
