@@ -6,9 +6,9 @@ public class Calculator {
 		// TODO Auto-generated method stub
 		System.out.println("Enter a Value");
 		Scanner sc = new Scanner(System.in);
-		int operand1 = sc.nextInt();
+		float operand1 = sc.nextFloat();
 		System.out.println("Enter a Value");
-		int operand2 = sc.nextInt();
+		float operand2 = sc.nextFloat();
 		
 		System.out.println("Would you like to add, subtract, multiply, or divide?");
 		String option = sc.next().toLowerCase();
