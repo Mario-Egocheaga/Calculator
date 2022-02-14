@@ -30,7 +30,14 @@ public class Calculator {
 		}
 		else if (option.equals("divide"))
 		{
-			System.out.println(operand1 / operand2);
+			if(operand1 != 0 || operand2 !=0)
+			{
+				System.out.println(operand1 / operand2);
+			}
+			else 
+			{
+				System.out.println("Error: Divide by Zero");
+			}
 		}
 		
 
